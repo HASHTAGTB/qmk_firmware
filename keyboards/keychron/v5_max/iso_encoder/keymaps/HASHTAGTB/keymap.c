@@ -76,7 +76,7 @@ enum custom_keycodes {
  * AC_CLK uses explicit register/unregister alternation — each half-state
  * lasts AC_CLK_INTERVAL ms, so the full press+release cycle is 2×.
  * AC_FS alternates between KC_F and KC_SPC at AC_FS_INTERVAL per step. */
-#define AC_CLK_INTERVAL 50
+#define AC_CLK_INTERVAL 100
 #define AC_FS_INTERVAL  250
 
 static bool     ac_clk_on    = false;
