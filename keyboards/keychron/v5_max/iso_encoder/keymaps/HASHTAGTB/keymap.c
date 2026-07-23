@@ -16,6 +16,7 @@
 
 #include QMK_KEYBOARD_H
 #include "keychron_common.h"
+#include "keychron_debounce.h"
 
 /* ====================================================================
  * LAYER MAP
